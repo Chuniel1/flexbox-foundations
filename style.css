@@ -1,8 +1,155 @@
+body {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    flex: auto;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.navy {
+    background-color: #1F2937;
+}
+.gray   {
+    background-color: #E5E7EB;
+    margin: 0;
+    padding: 0;
+}
+.white {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.body {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.leftMargin {
+    Margin-left: 100px;
+}
+
+.rightMargin {
+    margin-right: 100px;
+}
+
+/* body .top
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+} */
+
+/* body .left, body .right{
+    min-width: 200px;
+    flex-shrink: 0;
+} */
+
+.logo {
+    font-size: 18px;
+    color: #E5E6EB;
+}
+
+#whiteHeader {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+#whiteParagraph {
+    color: #F9FAF8;
+    margin-top: 0;
+}
+
+#footer {
+    color: #F9FAF8;
+    text-align: center;
+    align-items: center;
+}
+
+
+ul {
+    display: flex;
+    gap: 16px;
 }
 
 li {
+    list-style: none;
     
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.body .left{
+    flex-wrap: wrap;
+    width: 100px;
+    flex:1;
+    margin-right: 60px;
+}
+
+.body .right {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    flex: 1;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+button
+{
+    border-radius: 8px;
+    padding: 5px 8px;
+    width: 100px;
+    background-color: #3882F6;
+    color: white;
+}
+
+#blackHeader {
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+}
+
+#quote {
+    text-align: right;
+    font-weight: bold;
+}
+
+.blueBody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    background-color: #3882F6;
+    color: white;
+    padding: 20px 60px;
+    border-radius: 8px;
+}
+
+.blueButton {
+    border-color: white;
+}
+
+.blueHeader {
+    font-weight: 800;
+    font-size: 22px;
 }
